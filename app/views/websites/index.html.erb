@@ -1,0 +1,19 @@
+<h2>Listing websites</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @websites.each do |website| %>
+      <tr>
+        <td><%= website.name %></td>
+        <td><%= link_to 'Show', website %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
