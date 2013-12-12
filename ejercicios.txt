@@ -1,0 +1,18 @@
+1) a) Obtener la cookie de session al momento de cliquear en el link de un
+      website (mostrar el contenido de "_directory_session" en un alert o en la propia página)
+   b) Solucionar en el código esta vulnerabilidad
+
+2) a) Renderizar un iframe con "contenido malicioso" al momento de que
+      se muestra la info de un website.
+   b) De nuevo, solucionar este problema en el código (de la manera mas
+      simple posible)
+   c) Solucionar este problema, pero con la condición de que los
+      usuarios que publican websites puedan usar las siguientes html tags
+      en la descripción: h1, p, strong
+
+3) a) Diseñar un ataque donde se le envie a alguien una url de esta
+      aplicación, de modo tal que cuando se cargue la página el usuario sea
+      redirigido a www.algofeo.com
+      (La solución no puede depender de ingresar datos en la aplicación)
+   b) Arreglar el issue de seguridad
+
